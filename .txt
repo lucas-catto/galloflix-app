@@ -1,0 +1,19 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyDHqNWi4HDKHsy46f8oUQeBAjdsbp8FcRw",
+    authDomain: "galloflix-ab0b8.firebaseapp.com",
+    projectId: "galloflix-ab0b8",
+    storageBucket: "galloflix-ab0b8.appspot.com",
+    messagingSenderId: "719416404639",
+    appId: "1:719416404639:web:ff9072f9dd7f6b922e90aa"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
